@@ -1,0 +1,52 @@
+/*--Main Container--*/
+.main_view {
+	position: relative;
+	font-size:12px;
+	font-family:verdana, helvetica, arial, sans-serif;
+}
+.main_view a:link {
+	text-decoration:none;
+	color:#fff;
+}
+/*--Window/Masking Styles--*/
+.window {
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+
+/*--Paging And Title--*/
+#ft-buttons-slideshowHolder1, #ft-buttons-slideshowHolder2, #ft-buttons-slideshowHolder3 {
+	position: absolute;
+	top: 10px; right: 10px;
+	width: 178px; height:47px;
+	z-index: 10;
+    text-align: center;
+	line-height: 40px;
+	float: right;
+}
+
+.ft-title { 
+	padding: 10px 10px; 
+	width: 100%; 
+	text-align: left;
+	font-weight: bold;
+}
+
+.ft-button-slideshowHolder1, .ft-button-slideshowHolder2, .ft-button-slideshowHolder3 {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.ft-prev, .ft-next { display:none; }
+.ft-button-slideshowHolder1-active, .ft-button-slideshowHolder2-active, .ft-button-slideshowHolder3-active {	
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #fff;
+}
+.left{visibility:hidden;}
+.right{visibility:hidden;}
