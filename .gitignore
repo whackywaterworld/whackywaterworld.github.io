@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+
+##eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
