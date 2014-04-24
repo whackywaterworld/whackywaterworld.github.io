@@ -5,8 +5,8 @@
   src: local('SF Slapstick Comic'), local('Ubuntu-MediumItalic'), url(https://github.com/whackywaterworld/whackywaterworld.github.io/raw/master/fonts/SF_Slapstick_Comic.ttf) format('ttf');
 }
 @font-face {
-  font-family: 'SF Slapstick';
-  font-style: normal;
+  font-family: 'Orbitron';
+  font-style: light;
   font-weight: 500;
-  src: local('SF Slapstick Comic'), local('Ubuntu-MediumItalic'), url(https://github.com/theleagueof/orbitron/blob/master/Orbitron%20Light.ttf?raw=true) format('ttf');
+  src: local('Orbitron Light'), local('Ubuntu-MediumItalic'), url(https://github.com/theleagueof/orbitron/blob/master/Orbitron%20Light.ttf?raw=true) format('ttf');
 }
